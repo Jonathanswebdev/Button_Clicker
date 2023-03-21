@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <title>Button_Clicker</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="NavBar">
+      <div class="nav flex">
+        <h1 class="nav-title">Dojonary</h1>
+        <input type="text" id="search" placeholder="Search..." name="Search" size="60" />
+        <!-- <button class="btn" onclick="alert(Logout.value)">Login</button> -->
+        <button class="btn btn-blue" onclick="change(this)">Login</button>
+      </div>
+    </div>
+  </div>
+  <div class="container flex">
+    <div class="main">
+      <div class="box flex">
+        <div class="left">
+          <h2>Ninja</h2>
+          <p><strong>noun</strong></p>
+          <p><em>plural: ninjas</em></p>
+          <button onclick="alert('Ninja was liked')" class="btn btn-yellow">13 likes</button>
+
+        </div>
+        <div class="right">
+          <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">nijutsu</a></p>
+        </div>
+      </div>
+      <div class="box flex">
+        <div class="left">
+          <h2>Ninja</h2>
+          <p><strong>noun</strong></p>
+          <p><em>plural: ninjas</em></p>
+          <button class="btn btn-yellow">37 likes</button>
+
+        </div>
+        <div class="right">
+          <p>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>- like focus</p>
+        </div>
+      </div>
+    </div>
+    <div class="aside">
+      <h3>Dojonary is Defined By You</h3>
+      <button onclick="hide(this)"class="btn btn-green">Add Defintion</button>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
